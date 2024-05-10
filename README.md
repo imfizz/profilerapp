@@ -18,6 +18,7 @@
 ```
 username: bareclaw 
 password: profilerapp123
+```
 
 ### Hosting guide for pythonanywhere
 - [step-by-step-guide]
