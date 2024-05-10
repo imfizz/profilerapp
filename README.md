@@ -1,4 +1,4 @@
-# 🔴 Profiler App created using Python, Django and MySQL [website link]
+# 🔴 Profiler App created using Python, Django and MySQL [website]
 
 ### This project consist of the following: 
 - Login 💳
