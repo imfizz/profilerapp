@@ -1,4 +1,4 @@
-# 🔴 Profiler App created using Python, Django and MySQL 
+# 🔴 Profiler App created using Python, Django and MySQL [website link]
 
 ### This project consist of the following: 
 - Login 💳
@@ -29,3 +29,4 @@ password: profilerapp123
 [step-by-step-guide]: https://www.youtube.com/watch?v=xtnUwvjOThg
 [with-my-sql]: https://www.youtube.com/watch?v=l6tPaXFgfOo
 [web-link]: https://wordspiner.xyz/how-to-connect-a-django-project-to-mysql-database/
+[website]: https://bareclaw.pythonanywhere.com/users/
