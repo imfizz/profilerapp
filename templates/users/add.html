@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Add New User
+{% endblock %}
+
+{% block content %}
+
+    {% if error_message %}
+        <p class="alert alert-danger">
+            <strong>{{ error_message }}</strong>
+        </p>
+    {% endif %}
+
+    <form action="{% url 'users:processadd' %}" method="post" enctype="multipart/form-data">
+        {% comment %} 
+            django requires csrf_token for our security, 
+            for us to make sure that our transaction/actions are only coming 
+            from inside of our web application not outside of our web application
+        {% endcomment %}
+
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" name="fname" id="fname" class="form-control" required/>
+        </div>
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" name="lname" id="lname" class="form-control" required/>
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" id="email" class="form-control" required/>
+        </div>
+        <div class="form-group">
+            <label>Position</label>
+            <input type="text" name="position" id="position" class="form-control" required/>
+        </div>
+        <div class="form-group">
+            <label>User Image</label>
+            <input type="file" name="image" id="image" />
+        </div>
+
+        <button type="submit" class="btn btn-success mt-2">Add</button>
+
+        {% csrf_token %}
+    </form>
+{% endblock %}
