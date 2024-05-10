@@ -16,5 +16,5 @@
 
 ### To proceed to the application here's the credentials of an admin
 ```
-username: admin 
-password: 123456
+username: bareclaw 
+password: profilerapp123
