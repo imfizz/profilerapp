@@ -25,6 +25,12 @@ password: profilerapp123
 - [with-my-sql]
 - [web-link]
 
+### Reactivate Steps
+- Go to Web tab
+- Click Run until 3 months from today button
+- Click Reload project.pythonanywhere.com button
+- Refresh the project page.
+
 
 [step-by-step-guide]: https://www.youtube.com/watch?v=xtnUwvjOThg
 [with-my-sql]: https://www.youtube.com/watch?v=l6tPaXFgfOo
